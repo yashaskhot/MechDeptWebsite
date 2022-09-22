@@ -180,7 +180,7 @@ nav.innerHTML = `<div class="container-fluid">
                 </a>
                 <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                   <li>
-                    <a class="dropdown-item" href="#">Profile</a>
+                    <a class="dropdown-item" href="/faculty/faculty_profile.html">Profile</a>
                   </li>
                   <li><a class="dropdown-item" href="recognition.html">Recognition</a></li>
                   <li class="dropend drop-down">
