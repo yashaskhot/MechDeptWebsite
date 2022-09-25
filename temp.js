@@ -1,6 +1,4 @@
-
-let nav = document.getElementById('navbar');
-
+let nav = document.getElementById("navbar");
 
 nav.innerHTML = `<div class="container-fluid">
       <div class="row">
@@ -182,7 +180,7 @@ nav.innerHTML = `<div class="container-fluid">
                   <li>
                     <a class="dropdown-item" href="/faculty/faculty_profile.html">Profile</a>
                   </li>
-                  <li><a class="dropdown-item" href="recognition.html">Recognition</a></li>
+                  <li><a class="dropdown-item" href="/faculty/faculty_recognition.html">Recognition</a></li>
                   <li class="dropend drop-down">
                     <a
                       class="dropdown-item dropdown-toggle"
@@ -195,7 +193,10 @@ nav.innerHTML = `<div class="container-fluid">
                     </a>
                     <ul class="dropdown-menu sub-menu">
                       <li>
-                        <a class="dropdown-item" href="">Game Of Codes</a>
+                        <a class="dropdown-item" href="/faculty/major_grant.html">Major Grants</a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="/faculty/minor_grant.html">Minor Grants</a>
                       </li>
                     </ul>
                   </li>
@@ -214,7 +215,7 @@ nav.innerHTML = `<div class="container-fluid">
                 </a>
                 <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                   <li>
-                    <a class="dropdown-item" href="">Time Table</a>
+                    <a class="dropdown-item" href="/academics/timetable.html">Time Table</a>
                   </li>
                   <li>
                     <a class="dropdown-item" href="/students/notice.html">Notice</a>
@@ -235,7 +236,7 @@ nav.innerHTML = `<div class="container-fluid">
                 </a>
                 <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                   <li>
-                    <a class="dropdown-item" href="/students/undergraduate-project.html">Undergraduate Projects</a>
+                    <a class="dropdown-item" href="/academics/exam-calendar.html">Exam TimeTable</a>
                   </li>
                   <li class="dropend drop-down">
                     <a
@@ -249,31 +250,15 @@ nav.innerHTML = `<div class="container-fluid">
                     </a>
                     <ul class="dropdown-menu sub-menu">
                       <li>
-                        <a class="dropdown-item" href="">Internal Assesment</a>
+                        <a class="dropdown-item" href="/Examination/Rank_holder_D.html">Department</a>
                       </li>
                       <li>
-                        <a class="dropdown-item" href="">MU Examination</a>
+                        <a class="dropdown-item" href="/Examination/university_RH.html">University</a>
                       </li>
                     </ul>
                   </li>
                 </ul>
-              </li>
-              <li class="nav-item dropdown text-center">
-                <a
-                  class="nav-link dropdown-toggle"
-                  href="#"
-                  role="button"
-                  data-bs-toggle="dropdown"
-                  aria-expanded="false"
-                >
-                  CO-CURRICULAR ACTIVITIES
-                </a>
-                <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="/cocurricular/newsletter.html">Newsletter</a></li>
-                <li><a class="dropdown-item" href="/cocurricular/events.html">Events</a></li>
-                <li><a class="dropdown-item" href="/cocurricular/clubs.html">Clubs</a></li>
-                </ul>
-              </li>
+              </li>              
               <li class="nav-item dropdown text-center">
                 <a
                   class="nav-link dropdown-toggle"
@@ -285,24 +270,112 @@ nav.innerHTML = `<div class="container-fluid">
                 >
                   PLACEMENT & INTERNSHIP
                 </a>
-                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <ul class="dropdown-menu sub-menu">
+                <li class="dropend drop-down">
+                <a
+                  class="dropdown-item dropdown-toggle"
+                  href="/placement&internship/internship2021-2022.html"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                    Internship Records
+                </a>
+                <ul class="dropdown-menu sub-menu">
                   <li>
-                    <a
-                      class="dropdown-item"
-                      href="/placement&internship/intenship.html"
-                      >Internship Record</a
-                    >
+                    <a class="dropdown-item" href="/placement&internship/internship2021-2022.html">2021-2022</a>
                   </li>
                   <li>
-                    <a
-                      class="dropdown-item"
-                      href="/placement&internship/placement.html"
-                      >Placement Record</a
-                    >
+                    <a class="dropdown-item" href="/placement&internship/internship2020-2021.html">2020-2021</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="/placement&internship/internship2019-2020.html">2019-2020</a>
                   </li>
                 </ul>
               </li>
-            </ul>
+                <li class="dropend drop-down">
+                <a
+                  class="dropdown-item dropdown-toggle"
+                  href="/placement&internship/placement2021-2022.html"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                    Placement Records
+                </a>
+                <ul class="dropdown-menu sub-menu">
+                  <li>
+                    <a class="dropdown-item" href="/placement&internship/placement2021-2022.html">2021-2022</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="/placement&internship/placement2020-2021.html">2020-2021</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="/placement&internship/placement2019-2020.html">2019-2020</a>
+                  </li>
+                 
+                </ul>
+              </li>
+              </ul>
+                 
+              </li>
+              <li class="nav-item dropdown text-center">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                CO-CURRICULAR ACTIVITIES
+              </a>
+              <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="/cocurricular/newsletter.html">Newsletter</a></li>
+              <li class="dropend drop-down"><a class="dropdown-item dropdown-toggle" href="/cocurricular/events.html">Events</a>
+              <ul class="dropdown-menu sub-menu">
+              <li>
+                <a class="dropdown-item" href="/cocurricular/departmentday.html">Department Day</a>
+              </li>
+              <li>
+                <a class="dropdown-item" href="/cocurricular/events.html">Project</a>
+              </li>   
+              </ul>
+              </li>
+              <li class="dropend drop-down"><a class="dropdown-item dropdown-toggle" href="/cocurricular/clubs.html">Clubs</a>
+              <ul class="dropdown-menu sub-menu">
+              <li>
+                <a class="dropdown-item" href="/cocurricular/ISHRAE.html">ISHRAE</a>
+              </li>
+              <li>
+                <a class="dropdown-item" href="/cocurricular/Quadtorc.html">QUAD Torc</a>
+              </li>
+              <li>
+                <a class="dropdown-item" href="/cocurricular/SAE.html">SAE</a>
+              </li>
+              </ul>
+            </li>
+            <li>
+            <a class="dropdown-item" href="/cocurricular/Industrial_visit.html">
+            Industrial Visit</a>
+          </li>
+            <li>
+            <a class="dropdown-item" href="/cocurricular/certificate.html">
+            Certificate program</a>
+          </li>
+            <li>
+            <a class="dropdown-item" href="/cocurricular/gate_study.html">
+            Gate Study circle</a>
+          </li>
+            <li>
+            <a class="dropdown-item" href="#">
+            News Letter - The Beacon</a>
+          </li>
+            <li>
+            <a class="dropdown-item" href="/cocurricular/guest_lecture.html">
+            Guest Lectures</a>
+          </li>
+            
+          </ul>
             <!-- <ul class="main-navigation">
               <li><a href="#">HOME</a></li>
               <li><a href="#">ABOUT US</a></li>
@@ -345,7 +418,7 @@ nav.innerHTML = `<div class="container-fluid">
               </li>
               <li><a href="#">CO-CURRICULAR ACTIVITIES</a>
                 <ul>
-                  <li><a href="./cocurricular/newsletter/newsletter.html">Newsletter</a></li>
+                  <li><a href="./cocurricular/training.html">Training & Workshop</a></li>
                   <li><a href="#">Events</a>
                     <ul>
                       <li><a href="#">Game Of Codes</a></li>
@@ -372,4 +445,4 @@ nav.innerHTML = `<div class="container-fluid">
           </div>
         </div>
       </nav>
-    </header>`
+    </header>`;
