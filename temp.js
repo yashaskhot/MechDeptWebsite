@@ -23,6 +23,10 @@ nav.innerHTML = `<div class="container-fluid">
                 <a class="nav-link top-nav-text" href="https://elearn.dbit.in/">E-Learn</a>
               </li>
               <li class="nav-item">
+                <a class="nav-link top-nav-text" href="https://workshop.opensourcetutorials.in/?redirect=0">Aspire</a>
+              </li>
+
+              <li class="nav-item">
                 <a class="nav-link top-nav-text" href="http://dbitlrc.dbit.in/">Library</a>
               </li>
               <li class="nav-item">
@@ -43,7 +47,7 @@ nav.innerHTML = `<div class="container-fluid">
       <nav
         class="navbar navbar-expand-xl bg-light container-fluid justify-content-between"
       >
-        <span class="navbar-brand mb-0 h1 ms-3">IT DBIT</span>
+        <span class="navbar-brand mb-0 h1 ms-3">MECH DBIT</span>
         <button
           class="navbar-toggler me-2"
           type="button"
@@ -221,6 +225,7 @@ nav.innerHTML = `<div class="container-fluid">
                     <a class="dropdown-item" href="/students/notice.html">Notice</a>
                   </li>
                   <li><a class="dropdown-item" href="/students/recognition.html">Recognition</a></li>
+                  <li><a class="dropdown-item" href="/students/undergraduate-project.html">UnderGraduate Projects</a></li>
                 </ul>
               </li>
               <li class="nav-item dropdown text-center">
@@ -366,10 +371,7 @@ nav.innerHTML = `<div class="container-fluid">
             <a class="dropdown-item" href="/cocurricular/gate_study.html">
             Gate Study circle</a>
           </li>
-            <li>
-            <a class="dropdown-item" href="#">
-            News Letter - The Beacon</a>
-          </li>
+            
             <li>
             <a class="dropdown-item" href="/cocurricular/guest_lecture.html">
             Guest Lectures</a>
