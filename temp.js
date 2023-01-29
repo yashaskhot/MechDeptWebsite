@@ -6,7 +6,11 @@ nav.innerHTML = `<div class="container-fluid">
           <div class="container-fluid justify-content-center">
             <ul class="navbar-nav">
               <li class="nav-item">
+
                 <a class="nav-link top-nav-text" aria-current="page" href="http://dbit.in/">DBIT Home</a>
+
+                <a class="nav-link top-nav-text" aria-current="page" href="https://www.dbit.in/">DBIT Home</a>
+
               </li>
               <li class="nav-item">
                 <a class="nav-link top-nav-text" href="http://parent.dbit.in/"
@@ -94,8 +98,75 @@ nav.innerHTML = `<div class="container-fluid">
                   </li>
                   <li><a class="dropdown-item" href="https://dbit.in/timetable.html">Exam Timetable</a></li>
                   <li><a class="dropdown-item" href="/academics/timetable.html">Timetable</a></li>
+
                   <li><a class="dropdown-item" href="https://dbit.in/syllabus.html">Syllabus</a></li>
                   <li><a class="dropdown-item" href="/academics/lab.html">Laboratories</a></li>
+
+                  <li class="dropend drop-down">
+                    <a
+                      class="dropdown-item dropdown-toggle"
+                      href="#"
+                      role="button"
+                      data-bs-toggle="dropdown"
+                      aria-expanded="false"
+                    >
+                      Syllabus
+                    </a>
+                    <ul class="dropdown-menu sub-menu">
+                      <li class="dropend drop-down">
+                        <a
+                          class="dropdown-item dropdown-toggle"
+                          href="#"
+                          role="button"
+                          data-bs-toggle="dropdown"
+                          aria-expanded="false"
+                        >
+                          
+                        Second Year
+                        </a>
+                        <ul class="dropdown-menu sub-menu">
+                          <li>
+                            <a class="dropdown-item" href="/assets/pdf/SE-MechanicalREV-2019_Syllabus.pdf">SE_Mech</a>
+                          </li>
+                          
+                        </ul>
+                      </li>
+                      <li class="dropend drop-down">
+                        <a
+                          class="dropdown-item dropdown-toggle"
+                          href="#"
+                          role="button"
+                          data-bs-toggle="dropdown"
+                          aria-expanded="false"
+                        >
+                          Third Year
+                        </a>
+                        <ul class="dropdown-menu sub-menu">
+                          <li>
+                            <a class="dropdown-item" href="/assets/pdf/Third_Year_Mechanical_BE_Sem-V_and_VI-Teaching_Scheme_and_Course_Content.pdf">TE_Mech</a>
+                          </li>
+                          
+                        </ul>
+                      </li>
+                      <li class="dropend drop-down">
+                        <a
+                          class="dropdown-item dropdown-toggle"
+                          href="#"
+                          role="button"
+                          data-bs-toggle="dropdown"
+                          aria-expanded="false"
+                        >
+                          Final Year
+                        </a>
+                        <ul class="dropdown-menu sub-menu">
+                          <li>
+                            <a class="dropdown-item" href="/assets/pdf/BE-Syllabus-Rev2016.pdf">BE_Mech</a>
+                          </li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </li>
+
                   <li>
                     <a class="dropdown-item" href="#"
                       >Academic Advisory Board</a
