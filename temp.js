@@ -371,10 +371,7 @@ nav.innerHTML = `<div class="container-fluid">
             <a class="dropdown-item" href="/cocurricular/gate_study.html">
             Gate Study circle</a>
           </li>
-            <li>
-            <a class="dropdown-item" href="#">
-            News Letter - The Beacon</a>
-          </li>
+            
             <li>
             <a class="dropdown-item" href="/cocurricular/guest_lecture.html">
             Guest Lectures</a>
