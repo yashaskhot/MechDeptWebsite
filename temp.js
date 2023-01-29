@@ -113,15 +113,14 @@ nav.innerHTML = `<div class="container-fluid">
                           data-bs-toggle="dropdown"
                           aria-expanded="false"
                         >
-                          Second Year
+                          
+                        Second Year
                         </a>
                         <ul class="dropdown-menu sub-menu">
                           <li>
-                            <a class="dropdown-item" href="#">SEIT-C Scheme</a>
+                            <a class="dropdown-item" href="/assets/pdf/SE-MechanicalREV-2019_Syllabus.pdf">SE_Mech</a>
                           </li>
-                          <li>
-                            <a class="dropdown-item" href="#">SEIT-CBCGS</a>
-                          </li>
+                          
                         </ul>
                       </li>
                       <li class="dropend drop-down">
@@ -136,11 +135,9 @@ nav.innerHTML = `<div class="container-fluid">
                         </a>
                         <ul class="dropdown-menu sub-menu">
                           <li>
-                            <a class="dropdown-item" href="#">TEIT-CBCS</a>
+                            <a class="dropdown-item" href="/assets/pdf/Third_Year_Mechanical_BE_Sem-V_and_VI-Teaching_Scheme_and_Course_Content.pdf">TE_Mech</a>
                           </li>
-                          <li>
-                            <a class="dropdown-item" href="#">TEIT-C Scheme</a>
-                          </li>
+                          
                         </ul>
                       </li>
                       <li class="dropend drop-down">
@@ -155,7 +152,7 @@ nav.innerHTML = `<div class="container-fluid">
                         </a>
                         <ul class="dropdown-menu sub-menu">
                           <li>
-                            <a class="dropdown-item" href="#">BEIT-CBCS</a>
+                            <a class="dropdown-item" href="/assets/pdf/BE-Syllabus-Rev2016.pdf">BE_Mech</a>
                           </li>
                         </ul>
                       </li>
