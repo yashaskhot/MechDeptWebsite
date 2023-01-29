@@ -6,7 +6,11 @@ nav.innerHTML = `<div class="container-fluid">
           <div class="container-fluid justify-content-center">
             <ul class="navbar-nav">
               <li class="nav-item">
+
+                <a class="nav-link top-nav-text" aria-current="page" href="http://dbit.in/">DBIT Home</a>
+
                 <a class="nav-link top-nav-text" aria-current="page" href="https://www.dbit.in/">DBIT Home</a>
+
               </li>
               <li class="nav-item">
                 <a class="nav-link top-nav-text" href="http://parent.dbit.in/"
@@ -92,8 +96,12 @@ nav.innerHTML = `<div class="container-fluid">
                   <li>
                     <a class="dropdown-item" href="/academics/academic-calendar.html">Academic Calender</a>
                   </li>
-                  <li><a class="dropdown-item" href="/academics/exam-calendar.html">Exam Timetable</a></li>
+                  <li><a class="dropdown-item" href="https://dbit.in/timetable.html">Exam Timetable</a></li>
                   <li><a class="dropdown-item" href="/academics/timetable.html">Timetable</a></li>
+
+                  <li><a class="dropdown-item" href="https://dbit.in/syllabus.html">Syllabus</a></li>
+                  <li><a class="dropdown-item" href="/academics/lab.html">Laboratories</a></li>
+
                   <li class="dropend drop-down">
                     <a
                       class="dropdown-item dropdown-toggle"
@@ -158,6 +166,7 @@ nav.innerHTML = `<div class="container-fluid">
                       </li>
                     </ul>
                   </li>
+
                   <li>
                     <a class="dropdown-item" href="#"
                       >Academic Advisory Board</a
@@ -343,19 +352,7 @@ nav.innerHTML = `<div class="container-fluid">
               </li>   
               </ul>
               </li>
-              <li class="dropend drop-down"><a class="dropdown-item dropdown-toggle" href="/cocurricular/clubs.html">Clubs</a>
-              <ul class="dropdown-menu sub-menu">
-              <li>
-                <a class="dropdown-item" href="/cocurricular/ISHRAE.html">ISHRAE</a>
-              </li>
-              <li>
-                <a class="dropdown-item" href="/cocurricular/Quadtorc.html">QUAD Torc</a>
-              </li>
-              <li>
-                <a class="dropdown-item" href="/cocurricular/SAE.html">SAE</a>
-              </li>
-              </ul>
-            </li>
+              <li><a class="dropdown-item" href="/cocurricular/clubs.html">Clubs</a></li>
             <li>
             <a class="dropdown-item" href="/cocurricular/Industrial_visit.html">
             Industrial Visit</a>
@@ -383,27 +380,7 @@ nav.innerHTML = `<div class="container-fluid">
                   <li><a href="#">Academic Calender</a></li>
                   <li><a href="#">Exam Timetable</a></li>
                   <li><a href="#">Timetable</a></li>
-                  <li><a href="#">Syllabus</a>
-                    <ul>
-                      <li><a href="#">Second Year</a>
-                        <ul>
-                          <li><a href="#">SEIT-C Scheme</a></li>
-                          <li><a href="#">SEIT-CBCGS</a></li>
-                        </ul>
-                      </li>
-                      <li><a href="#">Third Year</a>
-                        <ul>
-                          <li><a href="#">TEIT-C Scheme</a></li>
-                          <li><a href="#">TEIT-CBCGS</a></li>
-                        </ul>
-                      </li>
-                      <li><a href="#">FInal Year</a>
-                        <ul>
-                          <li><a href="#">SEIT-CBCS</a></li>
-                        </ul>
-                      </li>
-                    </ul>
-                  </li>
+                  <li><a href="https://dbit.in/syllabus.html">Syllabus</a></li>
                   <li><a href="#">Academic Advisory Board</a></li>
                   <li><a href="#">Faculty Profile</a></li>
                 </ul>
