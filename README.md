@@ -1,2 +1,2 @@
-# it-dbit-website
+# mech-dbit-website
  
