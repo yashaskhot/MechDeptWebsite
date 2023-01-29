@@ -9,7 +9,6 @@ nav.innerHTML = `<div class="container-fluid">
 
                 <a class="nav-link top-nav-text" aria-current="page" href="http://dbit.in/">DBIT Home</a>
 
-                <a class="nav-link top-nav-text" aria-current="page" href="https://www.dbit.in/">DBIT Home</a>
 
               </li>
               <li class="nav-item">
@@ -99,7 +98,6 @@ nav.innerHTML = `<div class="container-fluid">
                   <li><a class="dropdown-item" href="https://dbit.in/timetable.html">Exam Timetable</a></li>
                   <li><a class="dropdown-item" href="/academics/timetable.html">Timetable</a></li>
 
-                  <li><a class="dropdown-item" href="https://dbit.in/syllabus.html">Syllabus</a></li>
                   <li><a class="dropdown-item" href="/academics/lab.html">Laboratories</a></li>
 
                   <li class="dropend drop-down">
@@ -290,7 +288,7 @@ nav.innerHTML = `<div class="container-fluid">
                   data-bs-toggle="dropdown"
                   aria-expanded="false"
                 >
-                    Internship Records
+                    Internship List
                 </a>
                 <ul class="dropdown-menu sub-menu">
                   <li>
@@ -312,7 +310,7 @@ nav.innerHTML = `<div class="container-fluid">
                   data-bs-toggle="dropdown"
                   aria-expanded="false"
                 >
-                    Placement Records
+                  Placement List
                 </a>
                 <ul class="dropdown-menu sub-menu">
                   <li>
