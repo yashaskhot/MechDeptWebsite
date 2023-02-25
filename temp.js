@@ -32,11 +32,6 @@ nav.innerHTML = `<div class="container-fluid">
               <li class="nav-item">
                 <a class="nav-link top-nav-text" href="http://dbitlrc.dbit.in/">Library</a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link top-nav-text" href="https://dbcldrive.dbit.in/"
-                  >DBCL Drive</a
-                >
-              </li>
             </ul>
           </div>
         </nav>
