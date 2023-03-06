@@ -50,13 +50,13 @@ footer.innerHTML =
      <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4" style="color:#e5e5e5; text-align: left;
      ">
        <!-- Links -->
-       <p  style=" text-align: left;"><b><h5 style=" text-align: left;" >Department of Electronics & Telecommunication Engineering</h5></b><br>
+       <p  style=" text-align: left;"><b><h5 style=" text-align: left;" >Department of Mechanical Engineering</h5></b><br>
 
-         1st Floor, C Wing <br>
+         2nd Floor, B Wing <br>
          
          Don Bosco Institute Of Technology Premier Automobiles Road, Opp. Fiat Company, Kurla (W), Mumbai- 400 070 <br>
        
-         <b>Contact :</b> 022-25042424 / 25040508 / 25042018 / 25041631 / 25042828 <br>
+         <b>Contact :</b>  022-25042424 / 022-25040508 / (+91)-22-25040682 <br>
 
          <b>Email -</b> dbit@dbit.in
        </p>
@@ -90,7 +90,7 @@ footer.innerHTML =
 
 <!-- Copyright -->
 <div class="text-center p-4" style="color:white" >
- © 2021 Copyright :
+ © 2023 Copyright :
  <a class="" style="text-decoration: none; color: white;"> <a href="/webdevteam/contributors.html" style="text-decoration:none; color: white;">Desgined and Maintained by DBIT Website Maintainance Team</a></a>
 </div>
 <!-- Copyright -->
